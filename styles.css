@@ -166,7 +166,15 @@ header{
   margin: 0 auto;
 }
 
+.row__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.no-cursor{
+  cursor: not-allowed;
+}
 
 /*
 
@@ -309,3 +317,50 @@ RECENTS
 #recent{
   padding-top: 4vw;
 }
+
+
+/* 
+
+EXPLORE
+
+*/
+
+#explore{
+  background-color: rgba(115, 66, 214, 0.1);
+}
+
+/* 
+
+FOOTER
+
+
+*/
+
+footer{
+  background-color: #242424;
+}
+
+.footer__logo{
+  display: flex;
+}
+
+.footer__logo--img{
+  width: 160px;
+  filter: grayscale(1) invert(1);
+}
+
+.footer__link, 
+.footer__copyright{
+color: #fff;
+}
+
+.footer__list{
+  margin: 20px 0 24px 0;
+}
+
+
+.footer__link{
+  padding: 0 8px;
+}
+
+/* SMALL PHONES, LARGE SMARTPHONES */
